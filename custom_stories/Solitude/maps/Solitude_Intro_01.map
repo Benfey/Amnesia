@@ -1,0 +1,58 @@
+<Level>
+    <EditorSession>
+        <Performance CamClipPlanes="0.05 1000" LightsActive="true" PSActive="true" ShowFog="true" ShowSkybox="true" WorldReflection="true" />
+        <ViewportConfig BGColor="0.2 0.2 0.2 1" GAmbientLight="false" GPointLight="false" GridSnap="true" GridSnapSeparation="0.25" SelectedViewport="3" UsingEnlargedViewport="true">
+            <Viewport CameraPosition="0 0 180" CameraTarget="0 0 0" CameraZoom="0" GridHeight="0" GridPlane="2" Preset="0" RenderMode="1" ShowAxes="true" ShowGrid="true" UsingLTCam="true" />
+            <Viewport CameraPosition="180 0 0" CameraTarget="0 0 0" CameraZoom="0" GridHeight="0" GridPlane="0" Preset="1" RenderMode="1" ShowAxes="true" ShowGrid="true" UsingLTCam="true" />
+            <Viewport CameraPosition="0 180 0" CameraTarget="0 0 0" CameraZoom="0" GridHeight="0" GridPlane="1" Preset="2" RenderMode="1" ShowAxes="true" ShowGrid="true" UsingLTCam="true" />
+            <Viewport CameraPosition="-7.64949 2.52543 1.48111" CameraTarget="-0.318619 0 0.810716" CameraZoom="1.86013" GridHeight="0" GridPlane="1" Preset="3" RenderMode="0" ShowAxes="true" ShowGrid="true" UsingLTCam="true" />
+        </ViewportConfig>
+        <Groups>
+            <Group ID="0" Name="None" Visible="true" />
+        </Groups>
+    </EditorSession>
+    <MapData FogActive="false" FogColor="1 1 1 1" FogCulling="true" FogEnd="20" FogFalloffExp="1" FogStart="0" GlobalDecalMaxTris="300" Name="" SkyBoxActive="false" SkyBoxColor="1 1 1 1" SkyBoxTexture="../../../">
+        <MapContents>
+            <FileIndex_StaticObjects NumOfFiles="0" />
+            <FileIndex_Entities NumOfFiles="1">
+                <File Id="0" Path="entities/lamp/candlestick_floor/candlestick_floor.ent" />
+            </FileIndex_Entities>
+            <FileIndex_Decals NumOfFiles="0" />
+            <StaticObjects />
+            <Primitives>
+                <Plane Active="true" AlignToWorldCoords="false" CastShadows="false" Collides="true" Corner1UV="0 8.5" Corner2UV="0 0" Corner3UV="9.5 0" Corner4UV="9.5 8.5" EndCorner="9.5 0 8.5" Group="0" ID="1" Material="X:/AmnesiaCS/Amnesia The Dark Descent/static_objects/castlebase/castlebase_floor.mat" Name="Plane" Rotation="0 0 0" Scale="1 1 1" StartCorner="0 0 0" Tag="" TextureAngle="0" TileAmount="1 1 1" TileOffset="0 0 0" WorldPos="-5 0 -4.5" />
+            </Primitives>
+            <Decals />
+            <Entities>
+                <Area Active="true" AreaType="PlayerStart" Group="0" ID="2" Mesh="" Name="PlayerStartArea_1" Rotation="0 1.5708 0" Scale="1 1 1" Tag="" WorldPos="-3 0.5 0">
+                    <UserVariables />
+                </Area>
+                <BoxLight Active="true" BlendFunc="0" CastShadows="false" DiffuseColor="0.2 0.2 0.2 1" FalloffMap="" FlickerActive="false" FlickerFade="false" FlickerOffColor="0 0 0 1" FlickerOffFadeMaxLength="0" FlickerOffFadeMinLength="0" FlickerOffMaxLength="0" FlickerOffMinLength="0" FlickerOffPS="" FlickerOffRadius="0" FlickerOffSound="" FlickerOnFadeMaxLength="0" FlickerOnFadeMinLength="0" FlickerOnMaxLength="0" FlickerOnMinLength="0" FlickerOnPS="" FlickerOnSound="" Gobo="" GoboAnimFrameTime="0" GoboAnimMode="None" Group="0" ID="3" Name="BoxLight_1" Radius="1" Rotation="0 -0 0" Scale="10 5.25 9" ShadowResolution="High" ShadowsAffectDynamic="true" ShadowsAffectStatic="true" Size="10 5.25 9" Tag="" WorldPos="-0.25 1.875 -0.25" />
+                <BoxLight Active="true" BlendFunc="0" CastShadows="false" DiffuseColor="0.2 0.2 0.2 1" FalloffMap="" FlickerActive="false" FlickerFade="false" FlickerOffColor="0 0 0 1" FlickerOffFadeMaxLength="0" FlickerOffFadeMinLength="0" FlickerOffMaxLength="0" FlickerOffMinLength="0" FlickerOffPS="" FlickerOffRadius="0" FlickerOffSound="" FlickerOnFadeMaxLength="0" FlickerOnFadeMinLength="0" FlickerOnMaxLength="0" FlickerOnMinLength="0" FlickerOnPS="" FlickerOnSound="" Gobo="" GoboAnimFrameTime="0" GoboAnimMode="None" Group="0" ID="4" Name="BoxLight_2" Radius="1" Rotation="0 0 0" Scale="10 5.25 9" ShadowResolution="High" ShadowsAffectDynamic="true" ShadowsAffectStatic="true" Size="10 5.25 9" Tag="" WorldPos="-0.25 1.875 -0.25" />
+                <Entity Active="true" FileIndex="0" Group="0" ID="7" Name="candlestick_floor_1" Rotation="0 0 0" Scale="1 1 1" Tag="" WorldPos="0 0 0">
+                    <UserVariables>
+                        <Var Name="CastShadows" Value="true" />
+                        <Var Name="StaticPhysics" Value="false" />
+                        <Var Name="IsAffectedByDecal" Value="false" />
+                        <Var Name="CallbackFunc" Value="" />
+                        <Var Name="ConnectedProps" Value="" />
+                        <Var Name="ConnectionStateChangeCallback" Value="" />
+                        <Var Name="FullGameSave" Value="false" />
+                        <Var Name="PlayerLookAtCallback" Value="" />
+                        <Var Name="PlayerLookAtCallbackAutoRemove" Value="false" />
+                        <Var Name="PlayerInteractCallback" Value="" />
+                        <Var Name="PlayerInteractCallbackAutoRemove" Value="false" />
+                        <Var Name="Lit" Value="true" />
+                        <Var Name="ConnectedLight" Value="" />
+                        <Var Name="ConnectionLightAmount" Value="1" />
+                        <Var Name="ConnectionLightUseOnColor" Value="true" />
+                        <Var Name="ConnectionLightUseSpec" Value="false" />
+                    </UserVariables>
+                </Entity>
+                <PointLight Active="true" CastShadows="false" DiffuseColor="1 1 1 1" FalloffMap="" FlickerActive="false" FlickerFade="false" FlickerOffColor="0 0 0 1" FlickerOffFadeMaxLength="0" FlickerOffFadeMinLength="0" FlickerOffMaxLength="0" FlickerOffMinLength="0" FlickerOffPS="" FlickerOffRadius="0" FlickerOffSound="" FlickerOnFadeMaxLength="0" FlickerOnFadeMinLength="0" FlickerOnMaxLength="0" FlickerOnMinLength="0" FlickerOnPS="" FlickerOnSound="" Gobo="" GoboAnimFrameTime="0" GoboAnimMode="None" Group="0" ID="9" Name="PointLight_1" Radius="4.5" Rotation="0 -0 0" Scale="1 1 1" ShadowResolution="High" ShadowsAffectDynamic="true" ShadowsAffectStatic="true" Tag="" WorldPos="0 1.75 0" />
+            </Entities>
+            <Misc />
+            <StaticObjectCombos />
+        </MapContents>
+    </MapData>
+</Level>

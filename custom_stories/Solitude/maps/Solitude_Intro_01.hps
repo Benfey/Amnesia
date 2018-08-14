@@ -1,0 +1,3 @@
+void OnStart() {
+  PlayMusic("Intro.ogg", true, 1, 0, 1, true);
+}
