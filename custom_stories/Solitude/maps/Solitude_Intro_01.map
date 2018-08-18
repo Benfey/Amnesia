@@ -5,24 +5,23 @@
             <Viewport CameraPosition="5.58009 0.0224299 178.5" CameraTarget="5.58009 0.0224299 -1.5" CameraZoom="0" GridHeight="-1.5" GridPlane="2" Preset="0" RenderMode="1" ShowAxes="true" ShowGrid="true" UsingLTCam="true" />
             <Viewport CameraPosition="174 0 -1.5" CameraTarget="-6 0 -1.5" CameraZoom="0" GridHeight="-6" GridPlane="0" Preset="1" RenderMode="1" ShowAxes="true" ShowGrid="true" UsingLTCam="true" />
             <Viewport CameraPosition="6 180 0.5" CameraTarget="6 0 0.5" CameraZoom="0" GridHeight="0" GridPlane="1" Preset="2" RenderMode="1" ShowAxes="true" ShowGrid="true" UsingLTCam="true" />
-            <Viewport CameraPosition="3.29788 4.05964 10.9755" CameraTarget="3.53844 -6.55651e-007 -0.481026" CameraZoom="1.41413" GridHeight="0" GridPlane="1" Preset="3" RenderMode="0" ShowAxes="true" ShowGrid="true" UsingLTCam="true" />
+            <Viewport CameraPosition="-1.85113 2.00561 0.0974995" CameraTarget="5.20169 5.36442e-007 -0.679974" CameraZoom="1.91413" GridHeight="0" GridPlane="1" Preset="3" RenderMode="0" ShowAxes="true" ShowGrid="true" UsingLTCam="true" />
         </ViewportConfig>
         <Groups>
             <Group ID="0" Name="None" Visible="true" />
         </Groups>
     </EditorSession>
-    <MapData FogActive="false" FogColor="1 1 1 1" FogCulling="true" FogEnd="20" FogFalloffExp="1" FogStart="0" GlobalDecalMaxTris="300" Name="" SkyBoxActive="false" SkyBoxColor="1 1 1 1" SkyBoxTexture="../../../">
+    <MapData FogActive="false" FogColor="1 1 1 1" FogCulling="true" FogEnd="20" FogFalloffExp="1" FogStart="0" GlobalDecalMaxTris="300" Name="" SkyBoxActive="false" SkyBoxColor="1 1 1 1" SkyBoxTexture="../../../../../../">
         <MapContents>
-            <FileIndex_StaticObjects NumOfFiles="9">
+            <FileIndex_StaticObjects NumOfFiles="8">
                 <File Id="0" Path="static_objects/mansionbase/wall/default02.dae" />
                 <File Id="1" Path="static_objects/mansionbase/wall/door_way02.dae" />
                 <File Id="2" Path="static_objects/mansionbase/wall/door_frame.dae" />
-                <File Id="3" Path="static_objects/technical/plane_black/plane_black.dae" />
-                <File Id="4" Path="static_objects/debris/wood/plank_4.5m_broken.dae" />
-                <File Id="5" Path="static_objects/debris/wood/plank01_4.5m.dae" />
-                <File Id="6" Path="static_objects/mansionbase/wall/welder02_convex.dae" />
-                <File Id="7" Path="static_objects/mansionbase/wall/window02_large_yellow.dae" />
-                <File Id="8" Path="static_objects/ornaments/curtains/curtain01_open.dae" />
+                <File Id="3" Path="static_objects/ornaments/curtains/curtain01_open.dae" />
+                <File Id="4" Path="static_objects/mansionbase/wall/window02_large_yellow.dae" />
+                <File Id="5" Path="static_objects/mansionbase/wall/welder02_convex.dae" />
+                <File Id="6" Path="static_objects/mansionbase/wall/window02_yellow.dae" />
+                <File Id="7" Path="static_objects/ornaments/curtains/curtain01_closed.dae" />
             </FileIndex_StaticObjects>
             <FileIndex_Entities NumOfFiles="2">
                 <File Id="0" Path="entities/lamp/candlestick_floor/candlestick_floor.ent" />
@@ -31,77 +30,32 @@
             <FileIndex_Decals NumOfFiles="0" />
             <StaticObjects>
                 <StaticObject CastShadows="true" Collides="true" FileIndex="0" Group="0" ID="11" Name="wall_default02_1" Rotation="0 -0 0" Scale="1 1 1" Tag="" WorldPos="-4 0 -1.5" />
-                <StaticObject CastShadows="true" Collides="true" FileIndex="0" Group="0" ID="12" Name="wall_default02_2" Rotation="0 -0 0" Scale="1 1 1" Tag="" WorldPos="0 0 -1.5" />
                 <StaticObject CastShadows="true" Collides="true" FileIndex="0" Group="0" ID="13" Name="wall_default02_3" Rotation="0 -0 0" Scale="1 1 1" Tag="" WorldPos="4 0 -1.5" />
-                <StaticObject CastShadows="true" Collides="true" FileIndex="0" Group="0" ID="14" Name="wall_default02_4" Rotation="0 -0 0" Scale="1 1 1" Tag="" WorldPos="8 0 -1.5" />
                 <StaticObject CastShadows="true" Collides="true" FileIndex="0" Group="0" ID="16" Name="wall_default02_6" Rotation="3.14159 -8.74228e-008 3.14159" Scale="1 1 1" Tag="" WorldPos="-4 0 2.5" />
                 <StaticObject CastShadows="true" Collides="true" FileIndex="0" Group="0" ID="17" Name="wall_default02_7" Rotation="3.14159 -8.74228e-008 3.14159" Scale="1 1 1" Tag="" WorldPos="0 0 2.5" />
                 <StaticObject CastShadows="true" Collides="true" FileIndex="0" Group="0" ID="18" Name="wall_default02_8" Rotation="3.14159 -8.74228e-008 3.14159" Scale="1 1 1" Tag="" WorldPos="4 0 2.5" />
                 <StaticObject CastShadows="true" Collides="true" FileIndex="0" Group="0" ID="19" Name="wall_default02_9" Rotation="3.14159 -8.74228e-008 3.14159" Scale="1 1 1" Tag="" WorldPos="8 0 2.5" />
-                <StaticObject CastShadows="true" Collides="true" FileIndex="1" Group="0" ID="30" Name="wall_door_way02_1" Rotation="3.14159 1.5708 3.14159" Scale="1 1 1" Tag="" WorldPos="-6 0 0.5" />
-                <StaticObject CastShadows="true" Collides="true" FileIndex="2" Group="0" ID="35" Name="wall_door_frame_1" Rotation="3.14159 1.5708 3.14159" Scale="1 1 1" Tag="" WorldPos="-6 0 0.5" />
+                <StaticObject CastShadows="true" Collides="true" FileIndex="1" Group="0" ID="30" Name="wall_door_way02_1" Rotation="-2.53518e-006 1.5708 -2.53518e-006" Scale="1 1 1" Tag="" WorldPos="-6 0 0.5" />
+                <StaticObject CastShadows="true" Collides="true" FileIndex="2" Group="0" ID="35" Name="wall_door_frame_1" Rotation="-2.53518e-006 1.5708 -2.53518e-006" Scale="1 1 1" Tag="" WorldPos="-6 0 0.5" />
                 <StaticObject CastShadows="true" Collides="true" FileIndex="0" Group="0" ID="57" Name="wall_default02_5" Rotation="0 -0 0" Scale="1 1 1" Tag="" WorldPos="12 0 -1.5" />
                 <StaticObject CastShadows="true" Collides="true" FileIndex="0" Group="0" ID="58" Name="wall_default02_10" Rotation="3.14159 -8.74228e-008 3.14159" Scale="1 1 1" Tag="" WorldPos="12 0 2.5" />
-                <StaticObject CastShadows="true" Collides="true" FileIndex="0" Group="0" ID="59" Name="wall_default02_11" Rotation="0 -0 0" Scale="1 1 1" Tag="" WorldPos="16 0 -1.5" />
-                <StaticObject CastShadows="true" Collides="true" FileIndex="6" Group="0" ID="69" Name="wall_welder02_convex_1" Rotation="3.14159 1.5708 3.14159" Scale="1 1 1" Tag="" WorldPos="14 0 2.5" />
-                <StaticObject CastShadows="true" Collides="true" FileIndex="7" Group="0" ID="77" Name="wall_window02_large_yellow_1" Rotation="3.14159 -1.5708 3.14159" Scale="1 1 1" Tag="" WorldPos="18 0 0.5" />
-                <StaticObject CastShadows="true" Collides="true" FileIndex="5" Group="0" ID="116" Name="wood_plank01_4.5m_1" Rotation="-3.08582 1.54796 -3.11832" Scale="1 1 1" Tag="" WorldPos="-5.75 3.75 0.5" />
-                <StaticObject CastShadows="true" Collides="true" FileIndex="5" Group="0" ID="117" Name="wood_plank01_4.5m_2" Rotation="-0.0823075 1.50121 0.0223899" Scale="1 1 1" Tag="" WorldPos="-5.25 3.75 0.5" />
-                <StaticObject CastShadows="true" Collides="true" FileIndex="5" Group="0" ID="118" Name="wood_plank01_4.5m_3" Rotation="3.08513 1.56773 -3.09199" Scale="1 1 1" Tag="" WorldPos="-4.75 3.75 0.5" />
-                <StaticObject CastShadows="true" Collides="true" FileIndex="5" Group="0" ID="119" Name="wood_plank01_4.5m_4" Rotation="-3.05554 1.5313 3.10816" Scale="1 1 1" Tag="" WorldPos="-4.25 3.75 0.5" />
-                <StaticObject CastShadows="true" Collides="true" FileIndex="5" Group="0" ID="127" Name="wood_plank01_4.5m_5" Rotation="-0.0853649 1.55783 0.0471953" Scale="1 1 1" Tag="" WorldPos="-3.75 3.75 0.5" />
-                <StaticObject CastShadows="true" Collides="true" FileIndex="5" Group="0" ID="128" Name="wood_plank01_4.5m_6" Rotation="-0.038087 1.54491 -0.0670897" Scale="1 1 1" Tag="" WorldPos="-3.25 3.75 0.5" />
-                <StaticObject CastShadows="true" Collides="true" FileIndex="5" Group="0" ID="130" Name="wood_plank01_4.5m_7" Rotation="3.09887 1.54553 3.14023" Scale="1 1 1" Tag="" WorldPos="-2.5 3.75 0.5" />
-                <StaticObject CastShadows="true" Collides="true" FileIndex="5" Group="0" ID="133" Name="wood_plank01_4.5m_8" Rotation="0.0858869 1.4972 -0.0132709" Scale="1 1 1" Tag="" WorldPos="-2 3.75 0.5" />
-                <StaticObject CastShadows="true" Collides="true" FileIndex="5" Group="0" ID="134" Name="wood_plank01_4.5m_9" Rotation="0.0344863 1.51907 -0.08398" Scale="1 1 1" Tag="" WorldPos="-1.5 3.75 0.5" />
-                <StaticObject CastShadows="true" Collides="true" FileIndex="5" Group="0" ID="135" Name="wood_plank01_4.5m_10" Rotation="-0.0274873 1.52544 0.0858603" Scale="1 1 1" Tag="" WorldPos="-0.75 3.75 0.5" />
-                <StaticObject CastShadows="true" Collides="true" FileIndex="5" Group="0" ID="136" Name="wood_plank01_4.5m_11" Rotation="-3.07225 1.56714 3.08013" Scale="1 1 1" Tag="" WorldPos="0 3.75 0.5" />
-                <StaticObject CastShadows="true" Collides="true" FileIndex="5" Group="0" ID="139" Name="wood_plank01_4.5m_12" Rotation="0.00293223 1.54114 -0.0751327" Scale="1 1 1" Tag="" WorldPos="0.5 3.75 0.5" />
-                <StaticObject CastShadows="true" Collides="true" FileIndex="5" Group="0" ID="142" Name="wood_plank01_4.5m_13" Rotation="3.08465 1.49833 3.05507" Scale="1 1 1" Tag="" WorldPos="1.25 3.75 0.5" />
-                <StaticObject CastShadows="true" Collides="true" FileIndex="5" Group="0" ID="143" Name="wood_plank01_4.5m_14" Rotation="-3.08512 1.49819 -3.12141" Scale="1 1 1" Tag="" WorldPos="1.75 3.75 0.5" />
-                <StaticObject CastShadows="true" Collides="true" FileIndex="5" Group="0" ID="144" Name="wood_plank01_4.5m_15" Rotation="-3.09158 1.4938 3.10191" Scale="1 1 1" Tag="" WorldPos="2.25 3.75 0.5" />
-                <StaticObject CastShadows="true" Collides="true" FileIndex="5" Group="0" ID="145" Name="wood_plank01_4.5m_16" Rotation="-0.00935596 1.54841 0.0530385" Scale="1 1 1" Tag="" WorldPos="2.75 3.75 0.5" />
-                <StaticObject CastShadows="true" Collides="true" FileIndex="5" Group="0" ID="147" Name="wood_plank01_4.5m_17" Rotation="0.0669566 1.54678 -0.0187732" Scale="1 1 1" Tag="" WorldPos="3.5 3.75 0.5" />
-                <StaticObject CastShadows="true" Collides="true" FileIndex="5" Group="0" ID="148" Name="wood_plank01_4.5m_18" Rotation="3.13442 1.48785 3.11556" Scale="1 1 1" Tag="" WorldPos="4.25 3.75 0.5" />
-                <StaticObject CastShadows="true" Collides="true" FileIndex="5" Group="0" ID="149" Name="wood_plank01_4.5m_19" Rotation="-0.0358872 1.53618 0.0135213" Scale="1 1 1" Tag="" WorldPos="5 3.75 0.5" />
-                <StaticObject CastShadows="true" Collides="true" FileIndex="5" Group="0" ID="150" Name="wood_plank01_4.5m_20" Rotation="3.059 1.48707 -3.07991" Scale="1 1 1" Tag="" WorldPos="5.75 3.75 0.5" />
-                <StaticObject CastShadows="true" Collides="true" FileIndex="5" Group="0" ID="151" Name="wood_plank01_4.5m_21" Rotation="3.12478 1.56476 3.0683" Scale="1 1 1" Tag="" WorldPos="6.25 3.75 0.5" />
-                <StaticObject CastShadows="true" Collides="true" FileIndex="5" Group="0" ID="152" Name="wood_plank01_4.5m_22" Rotation="0.0752393 1.50234 -0.00726266" Scale="1 1 1" Tag="" WorldPos="6.75 3.75 0.5" />
-                <StaticObject CastShadows="true" Collides="true" FileIndex="5" Group="0" ID="153" Name="wood_plank01_4.5m_23" Rotation="3.13474 1.51644 3.05483" Scale="1 1 1" Tag="" WorldPos="7.5 3.75 0.5" />
-                <StaticObject CastShadows="true" Collides="true" FileIndex="5" Group="0" ID="154" Name="wood_plank01_4.5m_24" Rotation="3.08445 1.56121 3.07755" Scale="1 1 1" Tag="" WorldPos="8.25 3.75 0.5" />
-                <StaticObject CastShadows="true" Collides="true" FileIndex="5" Group="0" ID="155" Name="wood_plank01_4.5m_25" Rotation="-3.13015 1.49301 -3.13614" Scale="1 1 1" Tag="" WorldPos="8.75 3.75 0.5" />
-                <StaticObject CastShadows="true" Collides="true" FileIndex="5" Group="0" ID="156" Name="wood_plank01_4.5m_26" Rotation="-0.00754496 1.50747 0.0862225" Scale="1 1 1" Tag="" WorldPos="7.25 3.75 0.5" />
-                <StaticObject CastShadows="true" Collides="true" FileIndex="5" Group="0" ID="158" Name="wood_plank01_4.5m_27" Rotation="0.0626528 1.4883 0.0827389" Scale="1 1 1" Tag="" WorldPos="9.25 3.75 0.5" />
-                <StaticObject CastShadows="true" Collides="true" FileIndex="4" Group="0" ID="160" Name="wood_plank_4.5m_broken_1" Rotation="0.0230237 1.53086 -0.00841851" Scale="1 1 1" Tag="" WorldPos="9.75 3.75 0" />
-                <StaticObject CastShadows="true" Collides="true" FileIndex="5" Group="0" ID="165" Name="wood_plank01_4.5m_28" Rotation="0.0833408 1.51299 -0.000114516" Scale="1 1 1" Tag="" WorldPos="10.25 3.75 0.5" />
-                <StaticObject CastShadows="true" Collides="true" FileIndex="5" Group="0" ID="166" Name="wood_plank01_4.5m_29" Rotation="3.11802 1.53387 -3.09764" Scale="1 1 1" Tag="" WorldPos="11 3.75 0.5" />
-                <StaticObject CastShadows="true" Collides="true" FileIndex="5" Group="0" ID="168" Name="wood_plank01_4.5m_30" Rotation="3.13482 1.50279 3.13902" Scale="1 1 1" Tag="" WorldPos="11.5 3.75 0.5" />
-                <StaticObject CastShadows="true" Collides="true" FileIndex="5" Group="0" ID="169" Name="wood_plank01_4.5m_31" Rotation="-3.11628 1.53979 -3.12664" Scale="1 1 1" Tag="" WorldPos="12.25 3.75 0.5" />
-                <StaticObject CastShadows="true" Collides="true" FileIndex="5" Group="0" ID="170" Name="wood_plank01_4.5m_32" Rotation="-0.0610335 1.53842 -0.0114013" Scale="1 1 1" Tag="" WorldPos="12.75 3.75 0.5" />
-                <StaticObject CastShadows="true" Collides="true" FileIndex="5" Group="0" ID="171" Name="wood_plank01_4.5m_33" Rotation="0.0288243 1.51104 -0.0272103" Scale="1 1 1" Tag="" WorldPos="13.25 3.75 0.5" />
-                <StaticObject CastShadows="true" Collides="true" FileIndex="5" Group="0" ID="172" Name="wood_plank01_4.5m_34" Rotation="0.0149381 1.49931 -0.0394773" Scale="1 1 1" Tag="" WorldPos="13.75 3.75 0.5" />
-                <StaticObject CastShadows="true" Collides="true" FileIndex="5" Group="0" ID="173" Name="wood_plank01_4.5m_35" Rotation="0.0394133 1.48737 -0.0413415" Scale="1 1 1" Tag="" WorldPos="14.25 3.75 0.5" />
-                <StaticObject CastShadows="true" Collides="true" FileIndex="5" Group="0" ID="174" Name="wood_plank01_4.5m_36" Rotation="-0.0289095 1.54646 0.0492087" Scale="1 1 1" Tag="" WorldPos="14.75 3.75 0.5" />
-                <StaticObject CastShadows="true" Collides="true" FileIndex="5" Group="0" ID="175" Name="wood_plank01_4.5m_37" Rotation="-3.06025 1.56801 -3.10092" Scale="1 1 1" Tag="" WorldPos="15.25 3.75 0.5" />
-                <StaticObject CastShadows="true" Collides="true" FileIndex="5" Group="0" ID="176" Name="wood_plank01_4.5m_38" Rotation="3.06386 1.55296 -3.06261" Scale="1 1 1" Tag="" WorldPos="16 3.75 0.5" />
-                <StaticObject CastShadows="true" Collides="true" FileIndex="5" Group="0" ID="177" Name="wood_plank01_4.5m_39" Rotation="3.10019 1.49881 3.05801" Scale="1 1 1" Tag="" WorldPos="16.5 3.75 0.5" />
-                <StaticObject CastShadows="true" Collides="true" FileIndex="5" Group="0" ID="178" Name="wood_plank01_4.5m_40" Rotation="3.06974 1.49306 -3.0774" Scale="1 1 1" Tag="" WorldPos="17.25 3.75 0.5" />
-                <StaticObject CastShadows="true" Collides="true" FileIndex="5" Group="0" ID="179" Name="wood_plank01_4.5m_41" Rotation="-3.13059 1.51784 -3.14018" Scale="1 1 1" Tag="" WorldPos="17.75 3.75 0.5" />
-                <StaticObject CastShadows="true" Collides="true" FileIndex="0" Group="0" ID="181" Name="wall_default02_14" Rotation="3.14159 -4.44253e-006 3.14159" Scale="1 1 1" Tag="" WorldPos="16 0 2.5" />
-                <StaticObject CastShadows="true" Collides="true" FileIndex="3" Group="0" ID="182" Name="plane_black_plane_black_1" Rotation="0 0 -3.14159" Scale="7.25 1 1.5" Tag="" WorldPos="6.25 7.25 0.5" />
-                <StaticObject CastShadows="true" Collides="true" FileIndex="3" Group="0" ID="183" Name="plane_black_plane_black_2" Rotation="1.57079 0 -3.14159" Scale="7.25 1 1" Tag="" WorldPos="6.25 5.25 -1.75" />
-                <StaticObject CastShadows="true" Collides="true" FileIndex="3" Group="0" ID="184" Name="plane_black_plane_black_3" Rotation="-1.57079 0 -3.14159" Scale="7.25 1 1" Tag="" WorldPos="6.25 5.25 2.75" />
-                <StaticObject CastShadows="true" Collides="true" FileIndex="3" Group="0" ID="185" Name="plane_black_plane_black_4" Rotation="-2.26498e-006 -2.22127e-006 -1.57079" Scale="1 1 1.5" Tag="" WorldPos="-6.25 5.25 0.5" />
-                <StaticObject CastShadows="true" Collides="true" FileIndex="3" Group="0" ID="186" Name="plane_black_plane_black_5" Rotation="2.26499e-006 2.22126e-006 1.5708" Scale="1 1 1.5" Tag="" WorldPos="18.25 5.25 0.5" />
-                <StaticObject CastShadows="true" Collides="true" FileIndex="8" Group="0" ID="223" Name="curtains_curtain01_open_1" Rotation="3.14159 -1.5708 3.14159" Scale="1 1 1" Tag="" WorldPos="18 0 0.5" />
+                <StaticObject CastShadows="true" Collides="true" FileIndex="5" Group="0" ID="69" Name="wall_welder02_convex_1" Rotation="3.14159 1.5708 3.14159" Scale="1 1 1" Tag="" WorldPos="14 0 2.5" />
+                <StaticObject CastShadows="true" Collides="true" FileIndex="4" Group="0" ID="77" Name="wall_window02_large_yellow_1" Rotation="-5.07036e-006 -0 1.10816e-013" Scale="1 1 1" Tag="" WorldPos="16 0 -1.5" />
+                <StaticObject CastShadows="true" Collides="true" FileIndex="3" Group="0" ID="223" Name="curtains_curtain01_open_1" Rotation="-5.07036e-006 -0 1.10816e-013" Scale="1 1 1" Tag="" WorldPos="16 0 -1.5" />
+                <StaticObject CastShadows="true" Collides="true" FileIndex="3" Group="0" ID="389" Name="curtains_curtain01_open_2" Rotation="-5.07036e-006 -0 1.10816e-013" Scale="1 1 1" Tag="" WorldPos="8 0 -1.5" />
+                <StaticObject CastShadows="true" Collides="true" FileIndex="4" Group="0" ID="390" Name="wall_window02_large_yellow_2" Rotation="-5.07036e-006 -0 1.10816e-013" Scale="1 1 1" Tag="" WorldPos="8 0 -1.5" />
+                <StaticObject CastShadows="true" Collides="true" FileIndex="4" Group="0" ID="451" Name="wall_window02_large_yellow_3" Rotation="-5.07036e-006 -0 1.10816e-013" Scale="1 1 1" Tag="" WorldPos="6.55671e-008 0 -1.5" />
+                <StaticObject CastShadows="true" Collides="true" FileIndex="6" Group="0" ID="473" Name="wall_window02_yellow_1" Rotation="0 -1.5708 0" Scale="1 1 1" Tag="" WorldPos="18 0 0.5" />
+                <StaticObject CastShadows="true" Collides="true" FileIndex="7" Group="0" ID="482" Name="curtains_curtain01_closed_1" Rotation="0 1.74846e-007 0" Scale="1 1 1" Tag="" WorldPos="0 0 -1.75" />
             </StaticObjects>
             <Primitives>
-                <Plane Active="true" AlignToWorldCoords="false" CastShadows="false" Collides="true" Corner1UV="0 3.2" Corner2UV="0 0" Corner3UV="19.2 0" Corner4UV="19.2 3.2" EndCorner="24 0 4" Group="0" ID="10" Material="X:/AmnesiaCS/Amnesia The Dark Descent/static_objects/mansionbase/floor/mansionbase_floor.mat" Name="Plane" Rotation="0 0 0" Scale="1 1 1" StartCorner="0 0 0" Tag="" TextureAngle="0" TileAmount="0.8 1 0.8" TileOffset="0 0 0" WorldPos="-6 0 -1.5" />
                 <Plane Active="true" AlignToWorldCoords="false" CastShadows="false" Collides="true" Corner1UV="0 3.2" Corner2UV="0 0" Corner3UV="19.2 0" Corner4UV="19.2 3.2" EndCorner="24 0 4" Group="0" ID="73" Material="X:/AmnesiaCS/Amnesia The Dark Descent/static_objects/mansionbase/floor/mansionbase_floor.mat" Name="Plane_2" Rotation="0 0 0" Scale="1 1 1" StartCorner="0 0 0" Tag="" TextureAngle="0" TileAmount="0.8 1 0.8" TileOffset="0 0 0" WorldPos="-6 0 -1.5" />
+                <Plane Active="true" AlignToWorldCoords="false" CastShadows="false" Collides="true" Corner1UV="0 9.8" Corner2UV="0 0" Corner3UV="3.2 0" Corner4UV="3.2 9.8" EndCorner="4 0 12.25" Group="0" ID="387" Material="X:/AmnesiaCS/Amnesia The Dark Descent/static_objects/mansionbase/floor/mansionbase_floor.mat" Name="Plane_3" Rotation="0 0 0" Scale="1 1 1" StartCorner="0 0 0" Tag="" TextureAngle="0" TileAmount="0.8 1 0.8" TileOffset="0 0 0" WorldPos="14 0 2.5" />
+                <Plane Active="true" AlignToWorldCoords="false" CastShadows="false" Collides="true" Corner1UV="1.6 2.77128" Corner2UV="0 0" Corner3UV="16.6277 -9.6" Corner4UV="18.2277 -6.82872" EndCorner="24 0 4" Group="0" ID="493" Material="C:/Program Files (x86)/Steam/steamapps/common/Amnesia The Dark Descent/static_objects/mansionbase/ceiling/mansionbase_ceiling_wood.mat" Name="Plane_4" Rotation="0 0 3.14159" Scale="1 1 1" StartCorner="0 0 0" Tag="" TextureAngle="0.523599" TileAmount="0.8 1 0.8" TileOffset="0 0 0" WorldPos="18 4 -1.5" />
             </Primitives>
             <Decals />
             <Entities>
-                <Area Active="true" AreaType="PlayerStart" Group="0" ID="2" Mesh="" Name="PlayerStartArea_1" Rotation="0 1.5708 0" Scale="1 1 1" Tag="" WorldPos="-3 0.5 0">
+                <Area Active="true" AreaType="PlayerStart" Group="0" ID="2" Mesh="" Name="PlayerStartArea_1" Rotation="0 1.5708 0" Scale="1 1 1" Tag="" WorldPos="-4.25 0.5 0.5">
                     <UserVariables />
                 </Area>
                 <PointLight Active="true" CastShadows="false" DiffuseColor="0.4 0.4 0.3 1" FalloffMap="" FlickerActive="false" FlickerFade="false" FlickerOffColor="0 0 0 1" FlickerOffFadeMaxLength="0" FlickerOffFadeMinLength="0" FlickerOffMaxLength="0" FlickerOffMinLength="0" FlickerOffPS="" FlickerOffRadius="0" FlickerOffSound="" FlickerOnFadeMaxLength="0" FlickerOnFadeMinLength="0" FlickerOnMaxLength="0" FlickerOnMinLength="0" FlickerOnPS="" FlickerOnSound="" Gobo="" GoboAnimFrameTime="0" GoboAnimMode="None" Group="0" ID="26" Name="PointLight_2" Radius="3.5" Rotation="0 -0 0" Scale="1 1 1" ShadowResolution="High" ShadowsAffectDynamic="true" ShadowsAffectStatic="true" Tag="" WorldPos="-5.25 1.875 2" />
@@ -125,7 +79,7 @@
                         <Var Name="ConnectionLightUseSpec" Value="false" />
                     </UserVariables>
                 </Entity>
-                <Entity Active="true" FileIndex="1" Group="0" ID="36" Name="mansion_2" Rotation="0 -1.5708 0" Scale="1 1 1" Tag="" WorldPos="-6 0 0.5">
+                <Entity Active="true" FileIndex="1" Group="0" ID="36" Name="mansion_2" Rotation="3.14159 -1.5708 3.14159" Scale="1 1 1" Tag="" WorldPos="-6 0 0.5">
                     <UserVariables>
                         <Var Name="CastShadows" Value="true" />
                         <Var Name="StaticPhysics" Value="false" />
@@ -164,69 +118,51 @@
                         <Var Name="ConnectionLightUseSpec" Value="false" />
                     </UserVariables>
                 </Entity>
-                <Billboard Active="true" BillboardColor="0.1 0.1 0.1 1" BillboardOffset="0" BillboardSize="1 5" BillboardType="FixedAxis" ConnectLight="" Group="0" HaloSourceSize="0 0 0" ID="206" IsHalo="false" MaterialFile="billboards/bb_lightblue_lightray.mat" Name="Billboard_215" Rotation="2.14932 1.41655 -1.96174" Tag="" WorldPos="17 0.75 1" />
-                <Billboard Active="true" BillboardColor="0.1 0.1 0.1 1" BillboardOffset="0" BillboardSize="2 4.5" BillboardType="FixedAxis" ConnectLight="" Group="0" HaloSourceSize="0 0 0" ID="207" IsHalo="false" MaterialFile="billboards/bb_lightblue_lightray.mat" Name="Billboard_216" Rotation="0.15133 -0.548571 2.08728" Tag="" WorldPos="17 1 1.25" />
-                <Billboard Active="true" BillboardColor="0.1 0.1 0.1 1" BillboardOffset="0" BillboardSize="2 4.5" BillboardType="FixedAxis" ConnectLight="" Group="0" HaloSourceSize="0 0 0" ID="208" IsHalo="false" MaterialFile="billboards/bb_lightblue_lightray.mat" Name="Billboard_217" Rotation="0.15133 -0.548571 2.08728" Tag="" WorldPos="17.25 1 0.75" />
-                <Billboard Active="true" BillboardColor="0.1 0.1 0.1 1" BillboardOffset="0" BillboardSize="1 5" BillboardType="FixedAxis" ConnectLight="" Group="0" HaloSourceSize="0 0 0" ID="209" IsHalo="false" MaterialFile="billboards/bb_lightblue_lightray.mat" Name="Billboard_230" Rotation="2.14932 1.41655 -2.30293" Tag="" WorldPos="16.5 1.25 0.25" />
-                <Billboard Active="true" BillboardColor="0.1 0.1 0.1 1" BillboardOffset="0" BillboardSize="2 4.5" BillboardType="FixedAxis" ConnectLight="" Group="0" HaloSourceSize="0 0 0" ID="210" IsHalo="false" MaterialFile="billboards/bb_lightblue_lightray.mat" Name="Billboard_231" Rotation="-2.52816 1.26531 -0.570639" Tag="" WorldPos="17 1 -2.18557e-008" />
-                <Billboard Active="true" BillboardColor="0.1 0.1 0.1 1" BillboardOffset="0" BillboardSize="2 4.5" BillboardType="FixedAxis" ConnectLight="" Group="0" HaloSourceSize="0 0 0" ID="211" IsHalo="false" MaterialFile="billboards/bb_lightblue_lightray.mat" Name="Billboard_232" Rotation="-0.334504 0.0173906 2.00243" Tag="" WorldPos="17 0.75 -0.25" />
-                <Billboard Active="true" BillboardColor="0.1 0.1 0.1 1" BillboardOffset="0" BillboardSize="2 4.5" BillboardType="FixedAxis" ConnectLight="" Group="0" HaloSourceSize="0 0 0" ID="212" IsHalo="false" MaterialFile="billboards/bb_lightblue_lightray.mat" Name="Billboard_249" Rotation="0.151335 -0.548567 1.7461" Tag="" WorldPos="16.5 1.5 0" />
-                <Billboard Active="true" BillboardColor="0.1 0.1 0.1 1" BillboardOffset="0" BillboardSize="2 4.5" BillboardType="FixedAxis" ConnectLight="" Group="0" HaloSourceSize="0 0 0" ID="213" IsHalo="false" MaterialFile="billboards/bb_lightblue_lightray.mat" Name="Billboard_250" Rotation="-0.174026 0.00871021 1.97811" Tag="" WorldPos="17 1.5 -0.25" />
-                <Billboard Active="true" BillboardColor="0.1 0.1 0.1 1" BillboardOffset="0" BillboardSize="2 4.5" BillboardType="FixedAxis" ConnectLight="" Group="0" HaloSourceSize="0 0 0" ID="214" IsHalo="false" MaterialFile="billboards/bb_lightblue_lightray.mat" Name="Billboard_251" Rotation="-2.52816 1.26531 -0.570639" Tag="" WorldPos="17 1.5 -2.18557e-008" />
-                <Billboard Active="true" BillboardColor="0.1 0.1 0.1 1" BillboardOffset="0" BillboardSize="2 4.5" BillboardType="FixedAxis" ConnectLight="" Group="0" HaloSourceSize="0 0 0" ID="215" IsHalo="false" MaterialFile="billboards/bb_lightblue_lightray.mat" Name="Billboard_252" Rotation="0.135862 0.3185 1.86824" Tag="" WorldPos="16.5 2.25 1" />
-                <Billboard Active="true" BillboardColor="0.1 0.1 0.1 1" BillboardOffset="0" BillboardSize="2 4.5" BillboardType="FixedAxis" ConnectLight="" Group="0" HaloSourceSize="0 0 0" ID="216" IsHalo="false" MaterialFile="billboards/bb_lightblue_lightray.mat" Name="Billboard_253" Rotation="0.151335 -0.548567 1.7461" Tag="" WorldPos="16.5 2.25 0" />
-                <PointLight Active="true" CastShadows="false" DiffuseColor="0.5 0.6 0.55 0" FalloffMap="" FlickerActive="false" FlickerFade="false" FlickerOffColor="0 0 0 1" FlickerOffFadeMaxLength="0" FlickerOffFadeMinLength="0" FlickerOffMaxLength="0" FlickerOffMinLength="0" FlickerOffPS="" FlickerOffRadius="0" FlickerOffSound="" FlickerOnFadeMaxLength="0" FlickerOnFadeMinLength="0" FlickerOnMaxLength="0" FlickerOnMinLength="0" FlickerOnPS="" FlickerOnSound="" Gobo="" GoboAnimFrameTime="0" GoboAnimMode="None" Group="0" ID="217" Name="PointLight_4" Radius="9" Rotation="3.14159 1.5708 3.14159" Scale="1 1 1" ShadowResolution="High" ShadowsAffectDynamic="true" ShadowsAffectStatic="true" Tag="" WorldPos="15.25 1.75 0.5" />
-                <Billboard Active="true" BillboardColor="0.1 0.1 0.1 1" BillboardOffset="0" BillboardSize="2 4.5" BillboardType="FixedAxis" ConnectLight="" Group="0" HaloSourceSize="0 0 0" ID="218" IsHalo="false" MaterialFile="billboards/bb_lightblue_lightray.mat" Name="Billboard_110" Rotation="0.151335 -0.548567 1.7461" Tag="" WorldPos="16.5 1.5 0.75" />
-                <SpotLight Active="true" Aspect="1.5" CastShadows="true" DiffuseColor="0.8 0.9 0.85 0.8" FOV="1.0472" FalloffMap="" FlickerActive="false" FlickerFade="false" FlickerOffColor="0 0 0 1" FlickerOffFadeMaxLength="0" FlickerOffFadeMinLength="0" FlickerOffMaxLength="0" FlickerOffMinLength="0" FlickerOffPS="" FlickerOffRadius="0" FlickerOffSound="" FlickerOnFadeMaxLength="0" FlickerOnFadeMinLength="0" FlickerOnMaxLength="0" FlickerOnMinLength="0" FlickerOnPS="" FlickerOnSound="" Gobo="gobo_mansionbase_window02_large.dds" GoboAnimFrameTime="0" GoboAnimMode="None" Group="0" ID="219" Name="SpotLight_4" NearClipPlane="0.1" Radius="7" Rotation="2.37343 -1.5708 1.55356" Scale="1 1 1" ShadowResolution="Medium" ShadowsAffectDynamic="true" ShadowsAffectStatic="true" SpotFalloffMap="" Tag="" WorldPos="17.75 2.25 0.5" />
-                <Billboard Active="true" BillboardColor="0.1 0.1 0.1 0.5" BillboardOffset="0" BillboardSize="3 3" BillboardType="Point" ConnectLight="" Group="0" HaloSourceSize="0 0 0" ID="220" IsHalo="false" MaterialFile="billboards/bb_lightblue_lightray.mat" Name="Billboard_111" Rotation="-1.55356 -1.5708 1.55356" Tag="" WorldPos="17.5 2.25 0.5" />
-                <ParticleSystem Active="true" Color="1 1 1 1" FadeAtDistance="true" File="ps_light_dust.ps" Group="0" ID="221" MaxFadeDistanceEnd="50" MaxFadeDistanceStart="40" MinFadeDistanceEnd="0" MinFadeDistanceStart="0" Name="ParticleSystem_37" Rotation="3.14159 1.5708 3.14159" Scale="1 1 1" Tag="" WorldPos="17 1.75 0.5" />
-                <BoxLight Active="true" BlendFunc="0" CastShadows="false" DiffuseColor="0.6 0.6 0.5 1" FalloffMap="" FlickerActive="false" FlickerFade="false" FlickerOffColor="0 0 0 1" FlickerOffFadeMaxLength="0" FlickerOffFadeMinLength="0" FlickerOffMaxLength="0" FlickerOffMinLength="0" FlickerOffPS="" FlickerOffRadius="0" FlickerOffSound="" FlickerOnFadeMaxLength="0" FlickerOnFadeMinLength="0" FlickerOnMaxLength="0" FlickerOnMinLength="0" FlickerOnPS="" FlickerOnSound="" Gobo="" GoboAnimFrameTime="0" GoboAnimMode="None" Group="0" ID="265" Name="BoxLight_2" Radius="1" Rotation="0 0 0" Scale="28 7.75 6.75" ShadowResolution="High" ShadowsAffectDynamic="true" ShadowsAffectStatic="true" Size="28 7.75 6.75" Tag="" WorldPos="6 2.25 0.5" />
+                <Billboard Active="true" BillboardColor="0.1 0.1 0.1 1" BillboardOffset="0" BillboardSize="1 5" BillboardType="FixedAxis" ConnectLight="" Group="0" HaloSourceSize="0 0 0" ID="206" IsHalo="false" MaterialFile="billboards/bb_lightblue_lightray.mat" Name="Billboard_215" Rotation="0.965277 -0.0585782 -2.99882" Tag="" WorldPos="17 0.75 -0.75" />
+                <Billboard Active="true" BillboardColor="0.1 0.1 0.1 1" BillboardOffset="0" BillboardSize="2 4.5" BillboardType="FixedAxis" ConnectLight="" Group="0" HaloSourceSize="0 0 0" ID="207" IsHalo="false" MaterialFile="billboards/bb_lightblue_lightray.mat" Name="Billboard_216" Rotation="2.01004 -0.434952 0.958183" Tag="" WorldPos="17.25 1 -0.75" />
+                <Billboard Active="true" BillboardColor="0.1 0.1 0.1 1" BillboardOffset="0" BillboardSize="2 4.5" BillboardType="FixedAxis" ConnectLight="" Group="0" HaloSourceSize="0 0 0" ID="208" IsHalo="false" MaterialFile="billboards/bb_lightblue_lightray.mat" Name="Billboard_217" Rotation="2.01004 -0.434952 0.958183" Tag="" WorldPos="16.75 1 -1" />
+                <Billboard Active="true" BillboardColor="0.1 0.1 0.1 1" BillboardOffset="0" BillboardSize="1 5" BillboardType="FixedAxis" ConnectLight="" Group="0" HaloSourceSize="0 0 0" ID="209" IsHalo="false" MaterialFile="billboards/bb_lightblue_lightray.mat" Name="Billboard_230" Rotation="1.30472 -0.102881 -3.02646" Tag="" WorldPos="16.25 1.25 -0.25" />
+                <Billboard Active="true" BillboardColor="0.1 0.1 0.1 1" BillboardOffset="0" BillboardSize="2 4.5" BillboardType="FixedAxis" ConnectLight="" Group="0" HaloSourceSize="0 0 0" ID="210" IsHalo="false" MaterialFile="billboards/bb_lightblue_lightray.mat" Name="Billboard_231" Rotation="1.20583 0.255888 -2.97287" Tag="" WorldPos="16 1 -0.75" />
+                <Billboard Active="true" BillboardColor="0.1 0.1 0.1 1" BillboardOffset="0" BillboardSize="2 4.5" BillboardType="FixedAxis" ConnectLight="" Group="0" HaloSourceSize="0 0 0" ID="211" IsHalo="false" MaterialFile="billboards/bb_lightblue_lightray.mat" Name="Billboard_232" Rotation="1.22828 -0.431564 1.58994" Tag="" WorldPos="15.75 0.75 -0.75" />
+                <Billboard Active="true" BillboardColor="0.1 0.1 0.1 1" BillboardOffset="0" BillboardSize="2 4.5" BillboardType="FixedAxis" ConnectLight="" Group="0" HaloSourceSize="0 0 0" ID="212" IsHalo="false" MaterialFile="billboards/bb_lightblue_lightray.mat" Name="Billboard_249" Rotation="1.81423 -0.149372 1.01533" Tag="" WorldPos="16 1.5 -0.25" />
+                <Billboard Active="true" BillboardColor="0.1 0.1 0.1 1" BillboardOffset="0" BillboardSize="2 4.5" BillboardType="FixedAxis" ConnectLight="" Group="0" HaloSourceSize="0 0 0" ID="213" IsHalo="false" MaterialFile="billboards/bb_lightblue_lightray.mat" Name="Billboard_250" Rotation="1.39301 -0.407297 1.58028" Tag="" WorldPos="15.75 1.5 -0.75" />
+                <Billboard Active="true" BillboardColor="0.1 0.1 0.1 1" BillboardOffset="0" BillboardSize="2 4.5" BillboardType="FixedAxis" ConnectLight="" Group="0" HaloSourceSize="0 0 0" ID="214" IsHalo="false" MaterialFile="billboards/bb_lightblue_lightray.mat" Name="Billboard_251" Rotation="1.20583 0.255888 -2.97287" Tag="" WorldPos="16 1.5 -0.75" />
+                <Billboard Active="true" BillboardColor="0.1 0.1 0.1 1" BillboardOffset="0" BillboardSize="2 4.5" BillboardType="FixedAxis" ConnectLight="" Group="0" HaloSourceSize="0 0 0" ID="215" IsHalo="false" MaterialFile="billboards/bb_lightblue_lightray.mat" Name="Billboard_252" Rotation="1.61096 -0.282062 1.90289" Tag="" WorldPos="17 2.25 -0.25" />
+                <Billboard Active="true" BillboardColor="0.1 0.1 0.1 1" BillboardOffset="0" BillboardSize="2 4.5" BillboardType="FixedAxis" ConnectLight="" Group="0" HaloSourceSize="0 0 0" ID="216" IsHalo="false" MaterialFile="billboards/bb_lightblue_lightray.mat" Name="Billboard_253" Rotation="1.81423 -0.149372 1.01533" Tag="" WorldPos="16 2.25 -0.25" />
+                <PointLight Active="true" CastShadows="false" DiffuseColor="0.5 0.6 0.55 0" FalloffMap="" FlickerActive="false" FlickerFade="false" FlickerOffColor="0 0 0 1" FlickerOffFadeMaxLength="0" FlickerOffFadeMinLength="0" FlickerOffMaxLength="0" FlickerOffMinLength="0" FlickerOffPS="" FlickerOffRadius="0" FlickerOffSound="" FlickerOnFadeMaxLength="0" FlickerOnFadeMinLength="0" FlickerOnMaxLength="0" FlickerOnMinLength="0" FlickerOnPS="" FlickerOnSound="" Gobo="" GoboAnimFrameTime="0" GoboAnimMode="None" Group="0" ID="217" Name="PointLight_4" Radius="9" Rotation="3.14159 -8.74228e-008 -3.14159" Scale="1 1 1" ShadowResolution="High" ShadowsAffectDynamic="true" ShadowsAffectStatic="true" Tag="" WorldPos="16.5 1.75 1" />
+                <Billboard Active="true" BillboardColor="0.1 0.1 0.1 1" BillboardOffset="0" BillboardSize="2 4.5" BillboardType="FixedAxis" ConnectLight="" Group="0" HaloSourceSize="0 0 0" ID="218" IsHalo="false" MaterialFile="billboards/bb_lightblue_lightray.mat" Name="Billboard_110" Rotation="1.81423 -0.149372 1.01533" Tag="" WorldPos="16.75 1.5 -0.25" />
+                <SpotLight Active="true" Aspect="1.5" CastShadows="true" DiffuseColor="0.8 0.9 0.85 0.8" FOV="1.0472" FalloffMap="" FlickerActive="false" FlickerFade="false" FlickerOffColor="0 0 0 1" FlickerOffFadeMaxLength="0" FlickerOffFadeMinLength="0" FlickerOffMaxLength="0" FlickerOffMinLength="0" FlickerOffPS="" FlickerOffRadius="0" FlickerOffSound="" FlickerOnFadeMaxLength="0" FlickerOnFadeMinLength="0" FlickerOnMaxLength="0" FlickerOnMinLength="0" FlickerOnPS="" FlickerOnSound="" Gobo="gobo_mansionbase_window02_large.dds" GoboAnimFrameTime="0" GoboAnimMode="None" Group="0" ID="219" Name="SpotLight_4" NearClipPlane="0.1" Radius="15" Rotation="-2.3562 4.2958e-008 -4.37049e-008" Scale="1 1 1" ShadowResolution="Medium" ShadowsAffectDynamic="true" ShadowsAffectStatic="true" SpotFalloffMap="" Tag="" WorldPos="16.5 2.25 -1.5" />
+                <Billboard Active="true" BillboardColor="0.1 0.1 0.1 0.5" BillboardOffset="0" BillboardSize="3 3" BillboardType="Point" ConnectLight="" Group="0" HaloSourceSize="0 0 0" ID="220" IsHalo="false" MaterialFile="billboards/bb_lightblue_lightray.mat" Name="Billboard_111" Rotation="1.9104e-015 4.44648e-008 4.37049e-008" Tag="" WorldPos="16.5 2.25 -1.25" />
+                <ParticleSystem Active="true" Color="1 1 1 1" FadeAtDistance="true" File="ps_light_dust.ps" Group="0" ID="221" MaxFadeDistanceEnd="50" MaxFadeDistanceStart="40" MinFadeDistanceEnd="0" MinFadeDistanceStart="0" Name="ParticleSystem_37" Rotation="3.14159 -8.74228e-008 -3.14159" Scale="1 1 1" Tag="" WorldPos="16.5 1.75 -0.75" />
+                <BoxLight Active="true" BlendFunc="0" CastShadows="false" DiffuseColor="0.6 0.6 0.5 1" FalloffMap="" FlickerActive="false" FlickerFade="false" FlickerOffColor="0 0 0 1" FlickerOffFadeMaxLength="0" FlickerOffFadeMinLength="0" FlickerOffMaxLength="0" FlickerOffMinLength="0" FlickerOffPS="" FlickerOffRadius="0" FlickerOffSound="" FlickerOnFadeMaxLength="0" FlickerOnFadeMinLength="0" FlickerOnMaxLength="0" FlickerOnMinLength="0" FlickerOnPS="" FlickerOnSound="" Gobo="" GoboAnimFrameTime="0" GoboAnimMode="None" Group="0" ID="265" Name="BoxLight_2" Radius="1" Rotation="0 0 0" Scale="28 7.75 22.5" ShadowResolution="High" ShadowsAffectDynamic="true" ShadowsAffectStatic="true" Size="28 7.75 22.5" Tag="" WorldPos="6 2.25 6.25" />
+                <PointLight Active="true" CastShadows="false" DiffuseColor="0.5 0.6 0.55 0" FalloffMap="" FlickerActive="false" FlickerFade="false" FlickerOffColor="0 0 0 1" FlickerOffFadeMaxLength="0" FlickerOffFadeMinLength="0" FlickerOffMaxLength="0" FlickerOffMinLength="0" FlickerOffPS="" FlickerOffRadius="0" FlickerOffSound="" FlickerOnFadeMaxLength="0" FlickerOnFadeMinLength="0" FlickerOnMaxLength="0" FlickerOnMinLength="0" FlickerOnPS="" FlickerOnSound="" Gobo="" GoboAnimFrameTime="0" GoboAnimMode="None" Group="0" ID="395" Name="PointLight_5" Radius="9" Rotation="3.14159 -8.74228e-008 -3.14159" Scale="1 1 1" ShadowResolution="High" ShadowsAffectDynamic="true" ShadowsAffectStatic="true" Tag="" WorldPos="8.25 1.75 1" />
+                <Billboard Active="true" BillboardColor="0.1 0.1 0.1 1" BillboardOffset="0" BillboardSize="2 4.5" BillboardType="FixedAxis" ConnectLight="" Group="0" HaloSourceSize="0 0 0" ID="396" IsHalo="false" MaterialFile="billboards/bb_lightblue_lightray.mat" Name="Billboard_254" Rotation="1.81423 -0.149372 1.01533" Tag="" WorldPos="7.75 2.25 -0.25" />
+                <Billboard Active="true" BillboardColor="0.1 0.1 0.1 1" BillboardOffset="0" BillboardSize="2 4.5" BillboardType="FixedAxis" ConnectLight="" Group="0" HaloSourceSize="0 0 0" ID="397" IsHalo="false" MaterialFile="billboards/bb_lightblue_lightray.mat" Name="Billboard_255" Rotation="1.61096 -0.282062 1.90289" Tag="" WorldPos="8.75 2.25 -0.25" />
+                <Billboard Active="true" BillboardColor="0.1 0.1 0.1 1" BillboardOffset="0" BillboardSize="2 4.5" BillboardType="FixedAxis" ConnectLight="" Group="0" HaloSourceSize="0 0 0" ID="398" IsHalo="false" MaterialFile="billboards/bb_lightblue_lightray.mat" Name="Billboard_112" Rotation="1.81423 -0.149372 1.01533" Tag="" WorldPos="8.5 1.5 -0.25" />
+                <Billboard Active="true" BillboardColor="0.1 0.1 0.1 1" BillboardOffset="0" BillboardSize="2 4.5" BillboardType="FixedAxis" ConnectLight="" Group="0" HaloSourceSize="0 0 0" ID="399" IsHalo="false" MaterialFile="billboards/bb_lightblue_lightray.mat" Name="Billboard_218" Rotation="2.01004 -0.434952 0.958183" Tag="" WorldPos="9 1 -0.75" />
+                <Billboard Active="true" BillboardColor="0.1 0.1 0.1 1" BillboardOffset="0" BillboardSize="2 4.5" BillboardType="FixedAxis" ConnectLight="" Group="0" HaloSourceSize="0 0 0" ID="400" IsHalo="false" MaterialFile="billboards/bb_lightblue_lightray.mat" Name="Billboard_256" Rotation="1.81423 -0.149372 1.01533" Tag="" WorldPos="7.75 1.5 -0.25" />
+                <Billboard Active="true" BillboardColor="0.1 0.1 0.1 1" BillboardOffset="0" BillboardSize="1 5" BillboardType="FixedAxis" ConnectLight="" Group="0" HaloSourceSize="0 0 0" ID="401" IsHalo="false" MaterialFile="billboards/bb_lightblue_lightray.mat" Name="Billboard_233" Rotation="1.30472 -0.102881 -3.02646" Tag="" WorldPos="8 1.25 -0.25" />
+                <Billboard Active="true" BillboardColor="0.1 0.1 0.1 1" BillboardOffset="0" BillboardSize="1 5" BillboardType="FixedAxis" ConnectLight="" Group="0" HaloSourceSize="0 0 0" ID="402" IsHalo="false" MaterialFile="billboards/bb_lightblue_lightray.mat" Name="Billboard_219" Rotation="0.965277 -0.0585782 -2.99882" Tag="" WorldPos="8.75 0.75 -0.75" />
+                <Billboard Active="true" BillboardColor="0.1 0.1 0.1 1" BillboardOffset="0" BillboardSize="2 4.5" BillboardType="FixedAxis" ConnectLight="" Group="0" HaloSourceSize="0 0 0" ID="403" IsHalo="false" MaterialFile="billboards/bb_lightblue_lightray.mat" Name="Billboard_257" Rotation="1.20583 0.255888 -2.97287" Tag="" WorldPos="7.75 1.5 -0.75" />
+                <Billboard Active="true" BillboardColor="0.1 0.1 0.1 1" BillboardOffset="0" BillboardSize="2 4.5" BillboardType="FixedAxis" ConnectLight="" Group="0" HaloSourceSize="0 0 0" ID="404" IsHalo="false" MaterialFile="billboards/bb_lightblue_lightray.mat" Name="Billboard_220" Rotation="2.01004 -0.434952 0.958183" Tag="" WorldPos="8.5 1 -1" />
+                <ParticleSystem Active="true" Color="1 1 1 1" FadeAtDistance="true" File="ps_light_dust.ps" Group="0" ID="405" MaxFadeDistanceEnd="50" MaxFadeDistanceStart="40" MinFadeDistanceEnd="0" MinFadeDistanceStart="0" Name="ParticleSystem_38" Rotation="3.14159 -8.74228e-008 -3.14159" Scale="1 1 1" Tag="" WorldPos="8.25 1.75 -0.75" />
+                <SpotLight Active="true" Aspect="1.5" CastShadows="true" DiffuseColor="0.8 0.9 0.85 0.8" FOV="1.0472" FalloffMap="" FlickerActive="false" FlickerFade="false" FlickerOffColor="0 0 0 1" FlickerOffFadeMaxLength="0" FlickerOffFadeMinLength="0" FlickerOffMaxLength="0" FlickerOffMinLength="0" FlickerOffPS="" FlickerOffRadius="0" FlickerOffSound="" FlickerOnFadeMaxLength="0" FlickerOnFadeMinLength="0" FlickerOnMaxLength="0" FlickerOnMinLength="0" FlickerOnPS="" FlickerOnSound="" Gobo="gobo_mansionbase_window02_large.dds" GoboAnimFrameTime="0" GoboAnimMode="None" Group="0" ID="406" Name="SpotLight_5" NearClipPlane="0.1" Radius="15" Rotation="-2.3562 4.2958e-008 -4.37049e-008" Scale="1 1 1" ShadowResolution="Medium" ShadowsAffectDynamic="true" ShadowsAffectStatic="true" SpotFalloffMap="" Tag="" WorldPos="8.25 2.25 -1.5" />
+                <Billboard Active="true" BillboardColor="0.1 0.1 0.1 1" BillboardOffset="0" BillboardSize="2 4.5" BillboardType="FixedAxis" ConnectLight="" Group="0" HaloSourceSize="0 0 0" ID="407" IsHalo="false" MaterialFile="billboards/bb_lightblue_lightray.mat" Name="Billboard_258" Rotation="1.39301 -0.407297 1.58028" Tag="" WorldPos="7.5 1.5 -0.75" />
+                <Billboard Active="true" BillboardColor="0.1 0.1 0.1 0.5" BillboardOffset="0" BillboardSize="3 3" BillboardType="Point" ConnectLight="" Group="0" HaloSourceSize="0 0 0" ID="408" IsHalo="false" MaterialFile="billboards/bb_lightblue_lightray.mat" Name="Billboard_113" Rotation="1.9104e-015 4.44648e-008 4.37049e-008" Tag="" WorldPos="8.25 2.25 -1.25" />
+                <Billboard Active="true" BillboardColor="0.1 0.1 0.1 1" BillboardOffset="0" BillboardSize="2 4.5" BillboardType="FixedAxis" ConnectLight="" Group="0" HaloSourceSize="0 0 0" ID="409" IsHalo="false" MaterialFile="billboards/bb_lightblue_lightray.mat" Name="Billboard_234" Rotation="1.20583 0.255888 -2.97287" Tag="" WorldPos="7.75 1 -0.75" />
+                <Billboard Active="true" BillboardColor="0.1 0.1 0.1 1" BillboardOffset="0" BillboardSize="2 4.5" BillboardType="FixedAxis" ConnectLight="" Group="0" HaloSourceSize="0 0 0" ID="410" IsHalo="false" MaterialFile="billboards/bb_lightblue_lightray.mat" Name="Billboard_235" Rotation="1.22828 -0.431564 1.58994" Tag="" WorldPos="7.5 0.75 -0.75" />
+                <PointLight Active="true" CastShadows="false" DiffuseColor="0.5 0.6 0.55 0" FalloffMap="" FlickerActive="false" FlickerFade="false" FlickerOffColor="0 0 0 1" FlickerOffFadeMaxLength="0" FlickerOffFadeMinLength="0" FlickerOffMaxLength="0" FlickerOffMinLength="0" FlickerOffPS="" FlickerOffRadius="0" FlickerOffSound="" FlickerOnFadeMaxLength="0" FlickerOnFadeMinLength="0" FlickerOnMaxLength="0" FlickerOnMinLength="0" FlickerOnPS="" FlickerOnSound="" Gobo="" GoboAnimFrameTime="0" GoboAnimMode="None" Group="0" ID="453" Name="PointLight_6" Radius="2.5" Rotation="3.14159 -8.74228e-008 -3.14159" Scale="1 1 1" ShadowResolution="High" ShadowsAffectDynamic="true" ShadowsAffectStatic="true" Tag="" WorldPos="0 1.75 1" />
+                <Billboard Active="true" BillboardColor="0.1 0.1 0.1 1" BillboardOffset="0" BillboardSize="2 4.5" BillboardType="FixedAxis" ConnectLight="" Group="0" HaloSourceSize="0 0 0" ID="456" IsHalo="false" MaterialFile="billboards/bb_lightblue_lightray.mat" Name="Billboard_114" Rotation="1.81423 -0.149372 1.01533" Tag="" WorldPos="0 1.5 -0.25" />
+                <Billboard Active="true" BillboardColor="0.1 0.1 0.1 1" BillboardOffset="0" BillboardSize="2 4.5" BillboardType="FixedAxis" ConnectLight="" Group="0" HaloSourceSize="0 0 0" ID="458" IsHalo="false" MaterialFile="billboards/bb_lightblue_lightray.mat" Name="Billboard_262" Rotation="1.81423 -0.149372 1.01533" Tag="" WorldPos="0 1.5 -0.25" />
+                <Billboard Active="true" BillboardColor="0.1 0.1 0.1 1" BillboardOffset="0" BillboardSize="1 5" BillboardType="FixedAxis" ConnectLight="" Group="0" HaloSourceSize="0 0 0" ID="459" IsHalo="false" MaterialFile="billboards/bb_lightblue_lightray.mat" Name="Billboard_236" Rotation="1.30472 -0.102881 -3.02646" Tag="" WorldPos="0 1.25 -0.25" />
+                <Billboard Active="true" BillboardColor="0.1 0.1 0.1 1" BillboardOffset="0" BillboardSize="2 4.5" BillboardType="FixedAxis" ConnectLight="" Group="0" HaloSourceSize="0 0 0" ID="461" IsHalo="false" MaterialFile="billboards/bb_lightblue_lightray.mat" Name="Billboard_263" Rotation="1.20583 0.255887 -2.97287" Tag="" WorldPos="0 1.5 -0.75" />
+                <Billboard Active="true" BillboardColor="0.1 0.1 0.1 1" BillboardOffset="0" BillboardSize="2 4.5" BillboardType="FixedAxis" ConnectLight="" Group="0" HaloSourceSize="0 0 0" ID="462" IsHalo="false" MaterialFile="billboards/bb_lightblue_lightray.mat" Name="Billboard_223" Rotation="2.01004 -0.434952 0.958183" Tag="" WorldPos="0.25 1 -1" />
+                <ParticleSystem Active="true" Color="1 1 1 1" FadeAtDistance="true" File="ps_light_dust.ps" Group="0" ID="463" MaxFadeDistanceEnd="50" MaxFadeDistanceStart="40" MinFadeDistanceEnd="0" MinFadeDistanceStart="0" Name="ParticleSystem_39" Rotation="3.14159 -8.74228e-008 -3.14159" Scale="1 1 1" Tag="" WorldPos="0 1.75 -0.75" />
+                <SpotLight Active="true" Aspect="0.3" CastShadows="true" DiffuseColor="0.6 0.7 0.65 0.8" FOV="1.0472" FalloffMap="" FlickerActive="false" FlickerFade="false" FlickerOffColor="0 0 0 1" FlickerOffFadeMaxLength="0" FlickerOffFadeMinLength="0" FlickerOffMaxLength="0" FlickerOffMinLength="0" FlickerOffPS="" FlickerOffRadius="0" FlickerOffSound="" FlickerOnFadeMaxLength="0" FlickerOnFadeMinLength="0" FlickerOnMaxLength="0" FlickerOnMinLength="0" FlickerOnPS="" FlickerOnSound="" Gobo="C:/Program Files (x86)/Steam/steamapps/common/Amnesia The Dark Descent/lights/gobo_square.dds" GoboAnimFrameTime="0" GoboAnimMode="None" Group="0" ID="464" Name="SpotLight_6" NearClipPlane="0.1" Radius="7" Rotation="-2.3562 4.2958e-008 -4.37049e-008" Scale="1 1 1" ShadowResolution="Medium" ShadowsAffectDynamic="true" ShadowsAffectStatic="true" SpotFalloffMap="" Tag="" WorldPos="0 2.25 -1.5" />
+                <Billboard Active="true" BillboardColor="0.1 0.1 0.1 0.5" BillboardOffset="0" BillboardSize="3 3" BillboardType="Point" ConnectLight="" Group="0" HaloSourceSize="0 0 0" ID="466" IsHalo="false" MaterialFile="billboards/bb_lightblue_lightray.mat" Name="Billboard_115" Rotation="1.9104e-015 4.44648e-008 4.37049e-008" Tag="" WorldPos="0 2.25 -1.25" />
+                <Billboard Active="true" BillboardColor="0.1 0.1 0.1 1" BillboardOffset="0" BillboardSize="2 4.5" BillboardType="FixedAxis" ConnectLight="" Group="0" HaloSourceSize="0 0 0" ID="467" IsHalo="false" MaterialFile="billboards/bb_lightblue_lightray.mat" Name="Billboard_237" Rotation="1.20583 0.255887 -2.97287" Tag="" WorldPos="0 1 -0.75" />
             </Entities>
             <Misc>
-                <Compound Active="true" Group="0" ID="180" Name="Compound_3" Rotation="0 0 0" Scale="1 1 1" Tag="" WorldPos="6 3.75 0.25">
-                    <Component ID="116" />
-                    <Component ID="117" />
-                    <Component ID="118" />
-                    <Component ID="119" />
-                    <Component ID="127" />
-                    <Component ID="128" />
-                    <Component ID="130" />
-                    <Component ID="133" />
-                    <Component ID="134" />
-                    <Component ID="135" />
-                    <Component ID="136" />
-                    <Component ID="139" />
-                    <Component ID="142" />
-                    <Component ID="143" />
-                    <Component ID="144" />
-                    <Component ID="145" />
-                    <Component ID="147" />
-                    <Component ID="148" />
-                    <Component ID="149" />
-                    <Component ID="150" />
-                    <Component ID="151" />
-                    <Component ID="152" />
-                    <Component ID="156" />
-                    <Component ID="153" />
-                    <Component ID="154" />
-                    <Component ID="155" />
-                    <Component ID="158" />
-                    <Component ID="160" />
-                    <Component ID="165" />
-                    <Component ID="166" />
-                    <Component ID="168" />
-                    <Component ID="169" />
-                    <Component ID="170" />
-                    <Component ID="171" />
-                    <Component ID="172" />
-                    <Component ID="173" />
-                    <Component ID="174" />
-                    <Component ID="175" />
-                    <Component ID="176" />
-                    <Component ID="177" />
-                    <Component ID="178" />
-                    <Component ID="179" />
-                </Compound>
                 <Compound Active="true" Group="0" ID="202" Name="Compound_1" Rotation="0 0 0" Scale="1 1 1" Tag="" WorldPos="-5.25 1 2">
                     <Component ID="26" />
                     <Component ID="27" />
@@ -235,23 +171,49 @@
                     <Component ID="203" />
                     <Component ID="204" />
                 </Compound>
-                <Compound Active="true" Group="0" ID="222" Name="Compound_4" Rotation="0 1.5708 0" Scale="1 1 1" Tag="" WorldPos="16.5 1.5 0.5">
-                    <Component ID="206" />
+                <Compound Active="true" Group="0" ID="385" Name="Compound_5" Rotation="0 1.5708 0" Scale="1 1 1" Tag="" WorldPos="16 0 -1.5">
+                    <Component ID="223" />
+                    <Component ID="77" />
+                </Compound>
+                <Compound Active="true" Group="0" ID="388" Name="Compound_3" Rotation="0 0 0" Scale="1 1 1" Tag="" WorldPos="16.5 1.5 -0.25">
+                    <Component ID="217" />
+                    <Component ID="216" />
+                    <Component ID="215" />
+                    <Component ID="218" />
                     <Component ID="207" />
-                    <Component ID="208" />
+                    <Component ID="212" />
                     <Component ID="209" />
+                    <Component ID="206" />
+                    <Component ID="214" />
+                    <Component ID="208" />
+                    <Component ID="221" />
+                    <Component ID="219" />
+                    <Component ID="213" />
+                    <Component ID="220" />
                     <Component ID="210" />
                     <Component ID="211" />
-                    <Component ID="212" />
-                    <Component ID="213" />
-                    <Component ID="214" />
-                    <Component ID="215" />
-                    <Component ID="216" />
-                    <Component ID="217" />
-                    <Component ID="218" />
-                    <Component ID="219" />
-                    <Component ID="220" />
-                    <Component ID="221" />
+                </Compound>
+                <Compound Active="true" Group="0" ID="391" Name="Compound_6" Rotation="0 1.5708 0" Scale="1 1 1" Tag="" WorldPos="8 0 -1.5">
+                    <Component ID="389" />
+                    <Component ID="390" />
+                </Compound>
+                <Compound Active="true" Group="0" ID="411" Name="Compound_4" Rotation="0 0 0" Scale="1 1 1" Tag="" WorldPos="8.25 1.5 -0.25">
+                    <Component ID="395" />
+                    <Component ID="396" />
+                    <Component ID="397" />
+                    <Component ID="398" />
+                    <Component ID="399" />
+                    <Component ID="400" />
+                    <Component ID="401" />
+                    <Component ID="402" />
+                    <Component ID="403" />
+                    <Component ID="404" />
+                    <Component ID="405" />
+                    <Component ID="406" />
+                    <Component ID="407" />
+                    <Component ID="408" />
+                    <Component ID="409" />
+                    <Component ID="410" />
                 </Compound>
             </Misc>
             <StaticObjectCombos />
